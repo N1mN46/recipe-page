@@ -35,11 +35,11 @@ body {
 }
 
 .box {
-    width: clamp(320px, 90%, 37.5rem); 
+    width: clamp(20rem, 90%, 37.5rem); 
     background-color: var(--color-white);
-    padding: 2.5rem; /* 40px */
-    margin-block: 2.5rem; /* Top/Bottom */
-    margin-inline: auto; /* Centered */
+    padding: clamp(1.5rem, 8vw, 2.5rem); 
+    margin-block: clamp(1rem, 5vh, 2.5rem); 
+    margin-inline: auto; 
     border-radius: var(--radius-lg);
 }
 
