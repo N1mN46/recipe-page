@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'YoungSerif'; 
+    src: url('assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('assets/fonts/outfit/Outfit-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    justify-content: center;
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: hsl(30, 10%, 34%);
+}
+
+.box {
+    max-width: 25vw;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    margin: 40px 20px;
+    border-radius: 20px;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.box h1, .box h2 {
+    font-family: 'YoungSerif', sans-serif;
+    font-weight: 400;
+}
+
+.box h1 {
+    color: hsl(24, 5%, 18%);
+}
+
+.box p {
+    font-size: 16px;
+}
+
+.box table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.box th, .box td {
+   border-bottom: 1px solid hsl(30, 18%, 87%);
+   padding: 20px 0px 15px 30px;
+}
+
+.box tr:last-child th,
+.box tr:last-child td {
+    border-bottom: none;
+}
+
+.box th {
+    font-weight: 400;
+}
+
+.box caption {
+    text-align: left;
+}
+
+.box li {
+    padding: 10px 0px 0px 25px;
+}
+
+.box li::marker, .box h2, .box td {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.preparation h3 {
+    padding-left: 15px;
+    color: hsl(332, 51%, 32%);
+}
+
+.ingredients li {
+    list-style-type: square;
+}
+
+.attribution {
+    margin-top: 10px;
+}
+
