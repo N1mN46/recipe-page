@@ -35,7 +35,7 @@ body {
 }
 
 .box {
-    width: clamp(20rem, 90%, 37.5rem); 
+    width: clamp(20rem, 90%, 42rem); 
     background-color: var(--color-white);
     padding: clamp(1.5rem, 8vw, 2.5rem); 
     margin-block: clamp(1rem, 5vh, 2.5rem); 
@@ -61,11 +61,14 @@ body {
 
 .box table {
     inline-size: 100%;
-    text-align: start;
     border-collapse: collapse;
 }
 
+.box caption {
+    text-align: start;
+}
 .box th, .box td {
+    text-align: start;
     border-block-end: 1px solid var(--color-border);
     padding-block: 1.25rem 0.9375rem;
     padding-inline-start: 1.875rem;
